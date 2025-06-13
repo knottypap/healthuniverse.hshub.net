@@ -1,0 +1,20 @@
+/* Responsive Navigation Bar */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0bd8c7;
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dropbtn {
+    width: 100%;
+  }
+}
