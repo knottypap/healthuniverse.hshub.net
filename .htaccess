@@ -1,0 +1,11 @@
+# Prevent clickjacking
+Header always set X-Frame-Options "SAMEORIGIN"
+
+# Prevent XSS attacks
+Header set X-XSS-Protection "1; mode=block"
+
+# Prevent MIME-type sniffing
+Header set X-Content-Type-Options "nosniff"
+
+# Content Security Policy (only load scripts/styles from your domain)
+Header set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self';"
