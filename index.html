@@ -303,7 +303,31 @@ cookie-popup {
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logos in One Line</title>
+  <style>
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* space between images */
+      margin-top: 40px;
+      flex-wrap: nowrap; /* ensures all items stay on one line */
+      overflow-x: auto;  /* allows scroll if screen is too small */
+    }
+
+    .logo-row a img {
+      width: 40px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
   <div class="image-container">
    
   <div class="logo-row">
