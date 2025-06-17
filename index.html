@@ -170,6 +170,18 @@
     </p>
   </footer>
 
+  <--keywords-->
+    <div id="keywords-container"></div>
+
+<script>
+  fetch("keywords.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("keywords.html").innerHTML = data;
+    });
+</script>
+
+
   <!-- Cookie Consent Popup -->
   <div id="cookiePopup" class="cookie-popup">
     <p>We use cookies to improve your experience on our site. By using our website, you agree to our Terms of Service.</p>
