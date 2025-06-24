@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow image directories (optional if images are under /)
+Allow: /images/
+
+Sitemap: https://healthuniverse.hshub.net/sitemap.xml
