@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Allow: / images
 
 # Explicitly allow image directories (optional if images are under /)
 Allow: /images/
