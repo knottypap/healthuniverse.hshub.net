@@ -23,3 +23,19 @@ body {
 .image-container img:hover {
   transform: scale(1.05);
 }
+
+.dashboard-overlay:nth-of-type(n+2) {
+    display: none !important;
+}
+   
+   // Remove duplicate dashboard overlays if detected
+document.addEventListener("DOMContentLoaded", () => {
+    const dashboards = document.querySelectorAll(".dashboard-overlay");
+
+    if (dashboards.length > 1) {
+        for (let i = 1; i < dashboards.length; i++) {
+            dashboards[i].remove();
+            console.log("Removed extra dashboard overlay.");
+        }
+    }
+});
