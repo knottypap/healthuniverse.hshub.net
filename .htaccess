@@ -9,3 +9,17 @@ Header set X-Content-Type-Options "nosniff"
 
 # Content Security Policy (only load scripts/styles from your domain)
 Header set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self';"
+
+<?php
+// Security headers
+header("X-Content-Type-Options: nosniff");
+header("X-Frame-Options: DENY");
+header("X-XSS-Protection: 1; mode=block");
+header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
+header("Content-Security-Policy: default-src 'self';");
+
+// Basic input sanitization
+function sanitizeInput($input) {
+    return htmlspecialchars(strip_tags($input), ENT_QUOTES, 'UTF-8');
+}
+?>
