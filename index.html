@@ -238,3 +238,30 @@
 <cbloxk.fsx/>
 <kw/>
 <hops/>
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>Welcome to Our Website</h1>
+<p>Your IP Address: <span id="user-ip">Loading...</span></p>
+
+<script>
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("user-ip").textContent = data.ip;
+        })
+        .catch(() => {
+            document.getElementById("user-ip").textContent = "Unable to detect IP.";
+        });
+        document.getElementById("user-ip").textContent = data.ip;
+        .htaccess/ips.";
+        
+        }};
+</script>
