@@ -27,7 +27,7 @@ function sanitizeInput($input) {
 
 AuthType Basic
 AuthName "Restricted Area"
-AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk
+AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklk
 Require valid-user
 
 ?>
