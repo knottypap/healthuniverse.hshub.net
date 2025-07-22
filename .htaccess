@@ -24,7 +24,7 @@ function sanitizeInput($input) {
 }
 
 
-
+<FilesMatch "\.(jpg|jpeg|png|gif|dynamic-ips)$">
 AuthType Basic
 AuthName "Restricted Area"
 AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"
