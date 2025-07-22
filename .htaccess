@@ -27,6 +27,13 @@ function sanitizeInput($input) {
 <FilesMatch "\.(jpg|jpeg|png|gif|dynamic-ips)$">
 AuthType Basic
 AuthName "Restricted Area"
+
+Order Deny,Allow
+Deny from all
+Allow from 8.8.8.8/24, 8.8.4.4/48
+
+
+
 AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"
 Require valid-user
 
