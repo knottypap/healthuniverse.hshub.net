@@ -33,8 +33,6 @@ Deny from all
 Allow from 2001:4860:4860::8888
 
 
-
-
 AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"
 Require valid-user
 
