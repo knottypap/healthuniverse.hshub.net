@@ -1,4 +1,42 @@
-<a href="https://clickbank.com/https://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/sales/=yourid123"
+<a href="https://clickbank.com/https://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/sales/=bluezy32,rose2white,devoraels7"
+   onclick="delayRedirect(event, this.href)">
+   Buy Now
+</a>
+
+<script>
+function delayRedirect(event, url) {
+  event.preventDefault(); // Prevent immediate navigation
+  setTimeout(() => {
+    window.location.href = url;
+  }, 2000); // Delay by 2000 milliseconds (2 seconds)
+}
+</script>
+
+
+
+
+<a href="https://clickbank.com/https://0191d6hl0dg8yqieukuvnl5c2c.hop.clickbank.net/?&extclid=G-94NKHLV9KQ/sales=devoraels7
+ Paste this URL into your promotional materials.
+ 100% Science-Backed NATUR,devoraels7"
+   onclick="delayRedirect(event, this.href)">
+   Buy Now
+</a>
+
+<script>
+function delayRedirect(event, url) {
+  event.preventDefault(); // Prevent immediate navigation
+  setTimeout(() => {
+    window.location.href = url;
+  }, 2000); // Delay by 2000 milliseconds (2 seconds)
+}
+</script>/sales/=devoraels7"
+   onclick="delayRedirect(event, this.href)">
+   Buy Now
+</a>
+
+<a href="https://clickbank.com/https://0191d6hl0dg8yqieukuvnl5c2c.hop.clickbank.net/?&extclid=G-94NKHLV9KQ/sales=devoraels7
+ Paste this URL into your promotional materials.
+ 100% Science-Backed NATUR,devoraels7"
    onclick="delayRedirect(event, this.href)">
    Buy Now
 </a>
