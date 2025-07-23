@@ -1,0 +1,13 @@
+<a href="https://clickbank.com/https://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/sales/=yourid123"
+   onclick="delayRedirect(event, this.href)">
+   Buy Now
+</a>
+
+<script>
+function delayRedirect(event, url) {
+  event.preventDefault(); // Prevent immediate navigation
+  setTimeout(() => {
+    window.location.href = url;
+  }, 2000); // Delay by 2000 milliseconds (2 seconds)
+}
+</script>
