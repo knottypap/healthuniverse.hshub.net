@@ -1,0 +1,19 @@
+<!-- Add this at the bottom of your conversion page -->
+<script>
+  // Adjust this to what you consider a "conversion" (e.g., form submission, affiliate click, etc.)
+  const conversionData = {
+    site: "healthuniverse.hshub.net",
+    event: "affiliate_click", // or "form_submit"
+    timestamp: new Date().toISOString(),
+    referrer: document.referrer,
+    userAgent: navigator.userAgent
+  };
+
+  fetch("https://healthuniverse.hshub.net/log-conversion.php", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(conversionData)
+  }).then(res => console.log("Conversion logged")).catch(err => console.error("Logging failed", err));
+</script>
