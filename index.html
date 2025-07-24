@@ -88,12 +88,21 @@
   <body>
 </head>
   <header>
-        body {
-  padding-top: 0;
-  margin: 0;
-}
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const navbar = document.querySelector(".navbar");
 
-    
+    if (navbar) {
+      // Fix margin by replacing negative margin with safer positioning
+      navbar.style.position = "relative";
+      navbar.style.top = "-20px"; // Adjust as needed
+      navbar.style.marginTop = "0"; // Remove the negative margin
+    } else {
+      console.warn("No element with class 'navbar' found.");
+    }
+  });
+</script>
+   
     <div class="navbar" style="text-align: center; padding: 5px;">
   <img src="https://raw.githubusercontent.com/knottypap/healthuniverse.hshub.net/main/healthy.png" style="max-width: 100px; height: auto; display: inline-block;">
 <div>
