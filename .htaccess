@@ -37,7 +37,7 @@ Allow from 2001:4860:4860::8844
 
 
 
-AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"huo-hm9hio'hi89pjiou8uu;ugfgrakkklioo;i"kjlkdfdfsssb
+AuthUserFile /home//.htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"huo-hm9hio'hi89pjiou8uu;ugfgrakkklioo;i"kjlkdfdfsssby890g7
 
 Require valid-user
 
