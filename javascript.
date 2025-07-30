@@ -1,0 +1,25 @@
+<script>
+(function(){
+  'use strict';
+
+  // Lock critical elements
+  const lockLink = function(linkSelector, expectedHref) {
+    const el = document.querySelector(linkSelector);
+    if (!el) return;
+
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (el.href !== expectedHref) {
+          console.warn('Link tampered with! Resetting...');
+          el.href = expectedHref;
+        }
+      });
+    });
+
+    observer.observe(el, {
+      attributes: true,
+      attributeFilter: ['href']
+    });
+  };
+
+  // Example use: protect y
