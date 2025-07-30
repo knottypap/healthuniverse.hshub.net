@@ -42,7 +42,7 @@ Allow from 2001:4860:4860::8844
 
 AuthType Basic
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9o
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†	
 Require valid-user
 
 ?>
