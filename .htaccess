@@ -48,7 +48,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†	jh;u;jk..odagfrg£"£%$^%
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†	jh;u;jk..odagfrg£"£%$^%jhkljui;
 Require valid-user
 
 ?>
