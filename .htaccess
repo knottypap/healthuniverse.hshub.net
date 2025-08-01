@@ -1,4 +1,4 @@
-# Prevent clickjacking
+jlio;# Prevent clickjacking
 Header always set X-Frame-Options "SAMEORIGIN"
 
 # Prevent XSS attacks
@@ -50,7 +50,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†	jh;u;jk..odagfrg£"£%$^%jhkljui;ijioij
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=e0e949039i-r9vwfalhuihgjkjdtydk9jhklkdtyd698gpN0Lo3"uiluljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†	jh;u;jk..odagfrg£"£%$^%jhkljui;ijioijijkjioioijo
 Require valid-user
 
 ?>
