@@ -32,7 +32,9 @@ Allow from 2001:4860:4860::8888
 Allow from  2a09:bac5:37e1:26d2::3de:2f
 Allow from 104.28.200.7 
 Allow from 2001:4860:4860::8844
-
+Allow from 2606:4700:4700::1111
+Allow from 3.33.251.168
+Allow from 15.197.225.128
 
 
 ?>
