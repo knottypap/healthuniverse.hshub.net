@@ -65,6 +65,7 @@ $products = [
            'product47' => 'cerebromed',
              'product48' => 'alphasupps',
                'product49' => 'fmwebs',
+                'product49' => 'bloodsugar',
      
 ];
 
