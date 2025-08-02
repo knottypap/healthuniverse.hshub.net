@@ -32,6 +32,14 @@ $products = [
     'product14' => 'peakshaver'
      'product15' => 'ibtonic',
     'product16' => '02bucky'
+      'product1' => 'mikegeary1',
+    'product2' => 'honeyburn'
+     'product3' => 'folioprime',
+    'product4' => 'aphrodscrt'
+      'product5' => 'ibandgr',
+    'product6' => 'ciderbrook'
+     'product7' => 'floaters',
+    'product8' => 'provadent'
 ];
 
 if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
