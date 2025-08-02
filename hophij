@@ -63,11 +63,117 @@ if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) 
 }
 
 $vendor = $products[$_GET['product']];
+$url = "https://$vendor.$https://fea3eaujgt6thx3kpoyohw1r4x.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
 $url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
 ?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
 
 
 
