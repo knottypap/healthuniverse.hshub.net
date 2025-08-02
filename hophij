@@ -160,7 +160,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_https://hop.clickbank.net/?vendor=livpure&affiliate=bluezy32&lid=1&tid=G-GV0426PE8H/";
 
 header("Location: $url");
 exit();
@@ -168,7 +168,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_http://480a5n0pko-2jpuksl0qp7azex.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
