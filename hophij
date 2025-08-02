@@ -58,6 +58,7 @@ $products = [
     'product40' => 'lottery20k'
      'product40' => 'matt1a',
      'product40' => 'bpmiracle',
+     'product40' => 'mytolin',
      
 ];
 
