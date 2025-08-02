@@ -57,6 +57,8 @@ $products = [
      'product39' => 'ezpayjobs',
     'product40' => 'lottery20k'
      'product40' => 'matt1a',
+     'product40' => 'bpmiracle',
+     
 ];
 
 if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
