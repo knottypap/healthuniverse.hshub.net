@@ -1,0 +1,22 @@
+
+
+
+<?php
+// go.php?product=productname
+
+$affiliate_id = 'youraffiliateid'; // Replace with your ClickBank ID
+$products = [
+    'product1' => 'vendorname1',
+    'product2' => 'vendorname2'
+];
+
+if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
+    die("Invalid product.");
+}
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
