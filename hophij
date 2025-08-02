@@ -735,7 +735,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://775da8tkykm9-j82ppkdwaavfx.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
@@ -745,7 +745,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://904c73rnlm2sbu5lmcsek8smfv.hop.clickbank.net//";
 
 header("Location: $url");
 exit();
@@ -753,42 +753,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
-
-header("Location: $url");
-exit();
-?>
-
-
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
-
-header("Location: $url");
-exit();
-?>
-
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
-
-header("Location: $url");
-exit();
-?>
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
-
-header("Location: $url");
-exit();
-?>
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://e4c414wfsn7oit84toka5g5qy5.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
@@ -798,7 +763,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://652494tenk4q4m6anmhcis9s33.hop.clickbank.net//";
 
 header("Location: $url");
 exit();
@@ -807,7 +772,33 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://f57157ogqkcwak2hkjwlj1cm0w.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://20613arm3qnzme8pet9-ip4x6z.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://b7d46yjl1hiduliloaheh8tx9q.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://b9e224npgp505q7fyapsciub0o.hop.clickbank.net/?&extclid=G-NMPBDG0TMW/";
 
 header("Location: $url");
 exit();
@@ -816,15 +807,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
-
-header("Location: $url");
-exit();
-?>
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://dffacltkjt35kjhp0dldkblr79.hop.clickbank.net/?&extclid=G-F8V5KP5J3C/";
 
 header("Location: $url");
 exit();
@@ -832,9 +815,26 @@ exit();
 
 
 
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://248229nlqmzpfmcaudfjhg1kck.hop.clickbank.net/?&extclid=G-NMPBDG0TMW/";
+
+header("Location: $url");
+exit();
+?>
+
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://ca3dby-qgy5z3sbp3fcjsgy784.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://hop.clickbank.net/?affiliate=bluezy32&vendor=gluco6&pid=vsl&tid=G-LGELBTZJX3/";
 
 header("Location: $url");
 exit();
