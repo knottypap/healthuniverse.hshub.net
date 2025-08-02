@@ -51,11 +51,11 @@ $products = [
  'product1' => 'barbros',
     'product2' => 'cogmentis'
      'product3' => 'wealthdna',
-    'product4' => 'aphrodscrt'
-      'product5' => 'ibandgr',
-    'product6' => 'ciderbrook'
-     'product7' => 'floaters',
-    'product8' => 'provadent'
+    'product4' => 'pgrdvnip'
+      'product5' => 'moneywavx',
+    'product6' => 'exipure'
+     'product7' => 'ezpayjobs',
+    'product8' => 'lottery20k'
 ];
 
 if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
