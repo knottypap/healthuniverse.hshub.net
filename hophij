@@ -56,9 +56,15 @@ $products = [
     'product38' => 'exipure',
      'product39' => 'ezpayjobs',
     'product40' => 'lottery20k'
-     'product40' => 'matt1a',
-     'product40' => 'bpmiracle',
-     'product40' => 'mytolin',
+     'product41' => 'matt1a',
+     'product42' => 'bpmiracle',
+     'product43' => 'mytolin',
+      'product44' => 'sumatonic',
+        'product45' => 'nervefresh',    
+         'product46' => 'recprofit',
+           'product47' => 'cerebromed',
+             'product48' => 'alphasupps',
+               'product49' => 'fmwebs',
      
 ];
 
