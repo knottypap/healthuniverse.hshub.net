@@ -20,10 +20,18 @@ $products = [
     'product2' => 'ronwill93'
      'product3' => '1keto',
     'product4' => 'aphrodscrt'
-      'product5' => 'droughtusa',
-    'product6' => 'ronwill93'
-     'product7' => '1keto',
-    'product8' => 'aphrodscrt'
+      'product5' => 'ibandgr',
+    'product6' => 'ciderbrook'
+     'product7' => 'floaters',
+    'product8' => 'provadent'
+      'product9' => 'leanbiome',
+    'product10' => 'wellbake'
+     'product11' => 'wellbake',
+    'product12' => 'divinesupp'
+      'product13' => 'gluco6',
+    'product14' => 'peakshaver'
+     'product15' => 'ibtonic',
+    'product16' => '02bucky'
 ];
 
 if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
