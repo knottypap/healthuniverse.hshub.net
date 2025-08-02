@@ -1,0 +1,10 @@
+<script>
+  const expectedAffiliate = ["bluezy32", "rose2white", "devoraels7"];
+
+  window.onload = () => {
+    const url = window.location.href;
+    if (!expectedAffiliate.some(aff => url.includes(`affiliate=${aff}`))) {
+      alert("Warning: This link may not credit your ClickBank account.");
+    }
+  }
+</script>
