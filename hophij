@@ -844,7 +844,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://getglucotrust.com?shield=dee7a0ttgxbphve1sqem1q-m7o/";
 
 header("Location: $url");
 exit();
@@ -853,7 +853,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://01674zmsgp-q4p8esja5ykhpet.hop.clickbank.net/?cbpage=40-Percent-Off-Yearly/";
 
 header("Location: $url");
 exit();
@@ -861,7 +861,7 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_/";
+$url = "https://$vendor.$affiliate_https://d5821aqtrpq8qej32aycmhiw3e.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
