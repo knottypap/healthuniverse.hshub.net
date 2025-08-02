@@ -8,3 +8,13 @@
     }
   }
 </script>
+
+
+<script>
+  const link = atob("aHR0cHM6Ly93d3cuY2xpY2tiYW5rLm5ldC9yZWRpcmVjdD9odHRwczovL2V4YW1wbGUuY29tL2FmZmlsaWF0ZT1ibHVlenkzMg==");
+  function goToClickBank() {
+    window.location.href = link;
+  }
+</script>
+
+<button onclick="goToClickBank()">Buy Now</button>
