@@ -10,6 +10,35 @@
 </script>
 
 
+
+<?php
+// go.php?product=productname
+
+$affiliate_id = 'youraffiliateid'; // Replace with your ClickBank ID
+$products = [
+    'product1' => 'droughtusa',
+    'product2' => 'ronwill93'
+     'product3' => '1keto',
+    'product4' => 'aphrodscrt'
+      'product5' => 'droughtusa',
+    'product6' => 'ronwill93'
+     'product7' => '1keto',
+    'product8' => 'aphrodscrt'
+];
+
+if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
+    die("Invalid product.");
+}
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
 <script>
   const link = atob("aHR0cHM6Ly93d3cuY2xpY2tiYW5rLm5ldC9yZWRpcmVjdD9odHRwczovL2V4YW1wbGUuY29tL2FmZmlsaWF0ZT1ibHVlenkzMg==");
   function goToClickBank() {
