@@ -176,6 +176,890 @@ exit();
 
 
 
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d9014evcrsz3jqq2v0u6zexhfg.hop.clickbank.net/?tid=GQ8DZ25YVT1/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://09342gxett8ejdu7ichmrl6r6p.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d7827gwjpsz2qsu-neav2864zf.hop.clickbank.net/?tid=G_CBZ4PYWLEK/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_1e4c3dsrupbfvdsopjegw-q94l.hop.clickbank.net/?tid=G_32SN8ZTD6X/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://178f4nqeks6fjllaqjv8r72wbw.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://weightlossdietplans.net/?shield=4670dqpnn057seinm3mg1o2w5y/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
   const link = atob("aHR0cHM6Ly93d3cuY2xpY2tiYW5rLm5ldC9yZWRpcmVjdD9odHRwczovL2V4YW1wbGUuY29tL2FmZmlsaWF0ZT1ibHVlenkzMg==");
