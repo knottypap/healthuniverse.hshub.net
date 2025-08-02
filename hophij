@@ -63,57 +63,14 @@ if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) 
 }
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$https://fea3eaujgt6thx3kpoyohw1r4x.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_https://fea3eaujgt6thx3kpoyohw1r4x.hop.clickbank.net/";
 
 header("Location: $url");
 exit();
 ?>
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
-
-header("Location: $url");
-exit();
-?>
-
-$vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_https://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
 
 header("Location: $url");
 exit();
@@ -121,14 +78,42 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_https://01674zmsgp-q4p8esja5ykhpet.hop.clickbank.net/?cbpage=40-Percent-Off-Yearly/";
 
 header("Location: $url");
 exit();
 ?>
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_http://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://f13d8kpojs7akjnb1hii4kw417.hop.clickbank.net.uk/?tid=GR9D48BY6E9/bluezy32/rose2white/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://fd5145ujqm3zbu2yslz6wj2mkc.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic&extclid=Tinyurl.com-245gkxpu/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://2948bnsoisy2qfs4pllzwmar95.hop.clickbank.net/?tid=G602LQM2ZQE/bluezy32/rose2white/";
 
 header("Location: $url");
 exit();
@@ -136,14 +121,14 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_http://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
 
 header("Location: $url");
 exit();
 ?>
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_http://658bdavqqs9r9p1ae30yod2k5p.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
 
 header("Location: $url");
 exit();
@@ -151,7 +136,22 @@ exit();
 
 
 $vendor = $products[$_GET['product']];
-$url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
+$url = "https://$vendor.$affiliate_https://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://2c86fautrwdual09uhxruc2wbo.hop.clickbank.net/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://daa0fyjjvgn9-niiqh0sz7exbz.hop.clickbank.net/?&extclid=G-5LR98KNFY0/";
 
 header("Location: $url");
 exit();
