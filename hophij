@@ -26,6 +26,30 @@ if (!empty($ref)) {
     }
 }
 
+
+function detectPhishingEmails() {
+  const threads = GmailApp.search('is:inbox newer_than:1d');
+  const alertEmail = "healthmatterslife@gmail.com";
+  const suspiciousWords = ['verify your account', 'click here to login', 'unusual activity', 'reset your password', 'banking update'];
+  
+  for (const thread of threads) {
+    const messages = thread.getMessages();
+    for (const message of messages) {
+      const body = message.getPlainBody().toLowerCase();
+      for (const word of suspiciousWords) {
+        if (body.includes(word)) {
+          GmailApp.sendEmail(alertEmail, "Phishing Alert Detected", 
+            `Suspicious email found:\n\nFrom: ${message.getFrom()}\nSubject: ${message.getSubject()}\n\nPreview:\n${body.slice(0, 300)}...`
+          );
+          break;
+        }
+      }
+    }
+  }
+}
+
+
+
 // Optional: Prevent affiliate cookie stuffing
 if ($cookie_source !== 'your_affiliate_id') {
     setcookie('affiliate', 'your_affiliate_id', time() + 3600, '/', 'yourwebsite.com', true, true);
