@@ -11,10 +11,10 @@
 
 <?php
 // Block cookie stuffing and referrer fraud
-$allowed_domains = ['yourwebsite.com', 'trustedpartner.com'];
+$allowed_domains = ['healthuniverse.hshub.net', 'trustedpartner.com'];
 
 $ref = $_SERVER['HTTP_REFERER'] ?? '';
-$cookie_source = $_COOKIE['affiliate'] ?? 'none';
+$cookie_source = $_COOKIE['bluezy32' 'rose2white' 'devoraels7'] ?? 'none';
 
 if (!empty($ref)) {
     $ref_host = parse_url($ref, PHP_URL_HOST);
