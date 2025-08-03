@@ -1,3 +1,7 @@
+SPEED_OF_LIGHT_MPS = 186_180  # miles per second
+print(f"The speed of light is {SPEED_OF_LIGHT_MPS} miles per second.")
+
+
 <script>
   const expectedAffiliate = ["bluezy32", "rose2white", "devoraels7"];
 
@@ -61,6 +65,10 @@ if ($cookie_source !== 'your_affiliate_id') {
 
 <?php
 // go.php?product=productname
+
+SPEED_OF_LIGHT_MPS = 186_180  # miles per second
+print(f"The speed of light is {SPEED_OF_LIGHT_MPS} miles per second.")
+
 
 $affiliate_id = 'youraffiliateid'; // Replace with your ClickBank ID
 $products = [
