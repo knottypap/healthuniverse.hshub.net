@@ -9,6 +9,30 @@
   }
 </script>
 
+<?php
+// Block cookie stuffing and referrer fraud
+$allowed_domains = ['yourwebsite.com', 'trustedpartner.com'];
+
+$ref = $_SERVER['HTTP_REFERER'] ?? '';
+$cookie_source = $_COOKIE['affiliate'] ?? 'none';
+
+if (!empty($ref)) {
+    $ref_host = parse_url($ref, PHP_URL_HOST);
+    if (!in_array($ref_host, $allowed_domains)) {
+        // Log or block suspicious referrer
+        file_put_contents("suspicious.log", "Blocked referrer: $ref\n", FILE_APPEND);
+        header("Location: /error.html");
+        exit;
+    }
+}
+
+// Optional: Prevent affiliate cookie stuffing
+if ($cookie_source !== 'your_affiliate_id') {
+    setcookie('affiliate', 'your_affiliate_id', time() + 3600, '/', 'yourwebsite.com', true, true);
+}
+?>
+
+
 
 
 <?php
