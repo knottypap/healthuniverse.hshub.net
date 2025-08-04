@@ -298,3 +298,12 @@
         }};
 </script>
 <script>rt.html</script>
+
+  <!-- Displays as "Jesus heals" -->
+<p>J&#8203;es&#8203;us h&#8203;eals</p>
+
+  <script>
+  const msg = document.querySelector("[data-message]").dataset.message;
+  document.body.insertAdjacentHTML("beforeend", `<p>${msg}</p>`);
+</script>
+
