@@ -11,6 +11,9 @@
   console.log("Daily Verse:", verse);
 </script>
 
+<!-- Displays as "Jesus heals" -->
+<p>J&#8203;es&#8203;us h&#8203;eals</p>
+
 
 # Basic Linux audit for suspicious connections
 sudo netstat -tulnp
