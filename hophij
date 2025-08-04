@@ -1,3 +1,7 @@
+# Basic Linux audit for suspicious connections
+sudo netstat -tulnp
+
+
 SPEED_OF_LIGHT_MPS = 186_180  # miles per second
 print(f"The speed of light is {SPEED_OF_LIGHT_MPS} miles per second.")
 
