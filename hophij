@@ -71,6 +71,28 @@ function detectPhishingEmails() {
       }
     }
   }
+
+# Python script to schedule posts at peak times
+from datetime import datetime, timedelta
+import time
+
+def post_at_best_time(post_function, post_content):
+    # Post at 7:00 PM local time (peak TikTok time)
+    now = datetime.now()
+    target = now.replace(hour=19, minute=0, second=0)
+    if now > target:
+        target += timedelta(days=1)
+
+    wait_seconds = (target - now).seconds
+    print(f"Waiting {wait_seconds/60:.1f} minutes to post...")
+    time.sleep(wait_seconds)
+    post_function(post_content)
+
+def fake_post(text):
+    print("Posting:", text)
+
+post_at_best_time(fake_post, "This wellness trick changed everything. #healing #faith #fyp")
+
 }
 
 
