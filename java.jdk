@@ -1,4 +1,6 @@
-            - name: Setup Java JDK
+<hi2/>
+
+- name: Setup Java JDK
   uses: actions/setup-java@v3.14.1
   with:
     # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
@@ -39,4 +41,5 @@
     mvn-toolchain-id: # optional
     # Name of Maven Toolchain Vendor if the default name of "${distribution}" is not wanted. See examples of supported syntax in Advanced Usage file
     mvn-toolchain-vendor: # optional
+
           
