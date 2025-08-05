@@ -42,6 +42,11 @@ Allow from 15.197.225.128
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json
 </IfModule>
 
+# Deny access to empty user agents
+SetEnvIfNoCase User-Agent "^$" bad_bot
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
 
 
 <hophij/>
