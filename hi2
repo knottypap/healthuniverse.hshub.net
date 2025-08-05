@@ -1,0 +1,4 @@
+# Block common bad bots
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} ^.*(AhrefsBot|SemrushBot|MJ12bot|DotBot|Baiduspider|Sogou).* [NC]
+RewriteRule .* - [F,L]
