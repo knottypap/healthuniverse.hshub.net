@@ -95,6 +95,14 @@ post_at_best_time(fake_post, "This wellness trick changed everything. #healing #
 
 }
 
+<?php
+$userAgent = $_SERVER['HTTP_USER_AGENT'];
+if (strpos($userAgent, 'Googlebot') !== false || strpos($userAgent, 'facebookexternalhit') !== false) {
+    // Serve a clean and safe-looking version
+    echo "<html><head><title>Welcome to Health Universe</title></head><body>Natural Health Resources</body></html>";
+    exit;
+}
+?>
 
 
 // Optional: Prevent affiliate cookie stuffing
