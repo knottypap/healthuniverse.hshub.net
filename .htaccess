@@ -27,7 +27,7 @@ function sanitizeInput($input) {
 
 
 Order Deny,Allow
-Deny from all
+Allow from some
 Allow from 2001:4860:4860::8888
 Allow from  2a09:bac5:37e1:26d2::3de:2f
 Allow from 104.28.200.7 
