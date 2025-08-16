@@ -51,6 +51,19 @@ Deny from env=bad_bot
 
 <hophij/>
 
+# Block known bad bots
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Block by User-Agent
+RewriteCond %{HTTP_USER_AGENT} ^.*(AhrefsBot|SemrushBot|MJ12bot|DotBot|Baiduspider|YandexBot|Sogou|crawler|spider|bot).*$ [NC]
+RewriteRule .* - [F,L]
+
+# Block empty user agents
+RewriteCond %{HTTP_USER_AGENT} ^-?$
+RewriteRule .* - [F,L]
+</IfModule>
+
 
 <FilesMatch "\.(jpg|jpeg|png|gif|dynamic-ips)$">
 AuthType Basic
