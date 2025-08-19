@@ -93,13 +93,14 @@ RewriteCond %{HTTP_USER_AGENT} ^-?$
 RewriteRule .* - [F,L]
 </IfModule>
 
+healthuniverse/hops
 
 <FilesMatch "\.(jpg|jpeg|png|gif|dynamic-ips)$">
 AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†-userfdfgrhareaRghjkgk_hgkyu88097"kl£"u0c-s
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.9omnj;u[''[ kjŒ	Ÿ	†-userfdfgrhareaRghjkgk_hgkyu88097"kl£"u0c-sjkl;io
 
 ?>
 
