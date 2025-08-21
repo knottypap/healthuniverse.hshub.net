@@ -1,0 +1,25 @@
+using System;
+
+public class Class1=ads=crypto
+{
+
+	{
+  "Name": "BlockPKAFIN=ads=crypto=i3490dvn=.ca",
+  "Priority": 1,
+  "Action": { "Block": {} },
+  "Statement": {
+    "GeoMatchStatement": {
+      "CountryCodes": ["PK", "AF","IN","IR"ads","crypto","i3490dvn,".ca"]
+}
+  },
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "BlockPKAFINIR=ads=crypto=i3490dvn"
+  }
+}
+
+	public Class1()
+	{
+	}
+}
