@@ -3,3 +3,29 @@ function recommend_content(current_article):
     topics = extract_keywords(current_social-media)
     related = search_database(topics, similarity > 70%)
     return top 3 articles
+
+for candidate in candidate_list:
+    score = compute_score(candidate)
+    if score < THRESHOLD: continue
+
+    contact = find_contact(candidate)  # From site, WHOIS, or LinkedIn
+    outreach_msg = personalize_template(candidate, page_relevance, suggested_topic)
+    send_outreach(contact, outreach_msg)
+
+    if reply_positive:
+        arrange_content(candidate, content_type)  # guest post / link insertion / PR
+        record_agreement(candidate, date, expected_url)
+
+def verify_link(expected_url, anchor, target_healthuniverse.hshub.net):
+    page = http_get(expected_url)
+    if page.status != 200: return "missing"
+    if anchor in page.html and target_domain in page.html:
+        return "present"
+    return "not_found"
+
+
+def choose_anchor(target_title):
+    r = random()
+    if r < 0.6: return f"HealthUniverse"             # branded
+    elif r < 0.9: return generate_long_tail(target_title)  # long-tail
+    else: return exact_match_keyword(target_title)   # exact-match (rare)
