@@ -1,0 +1,4 @@
+function recommend_content(current_article):
+    topics = extract_keywords(current_article)
+    related = search_database(topics, similarity > 70%)
+    return top 3 articles
