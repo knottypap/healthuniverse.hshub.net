@@ -76,6 +76,73 @@
     .cookie-popup button:hover {
       background-color: #005f47;
     }
+
+    <!--responsive mobile-->
+  /* Add to your funnel.css or inside a <style> block */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.navbar img.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.category-card {
+  max-width: 95vw;
+  margin: 20px auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.category-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+  border-radius: 8px;
+}
+
+.link-btn {
+  display: inline-block;
+  margin: 8px 4px;
+  font-size: 16px;
+  padding: 10px 18px;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .navbar div {
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+  }
+  .category-card {
+    padding: 8px;
+  }
+  h1, h2, h3 {
+    font-size: 1.3em;
+  }
+}
+    
   </style>
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NXBS2135Y"></script>
