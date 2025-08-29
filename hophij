@@ -1151,9 +1151,17 @@ RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} ^.*(AhrefsBot|SemrushBot|MJ12bot|DotBot|Baiduspider|Sogou).* [NC]
 RewriteRule .* - [F,L]
 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6NXBS2135Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-
+  gtag('config', 'G-6NXBS2135Y');
+</script>
+</head>
 
 
 
