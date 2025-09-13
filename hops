@@ -1,3 +1,9 @@
+PORT=3000
+REDIS_URL=redis://localhost:6379
+RECAPTCHA_SECRET=your-google-recaptcha-secret
+TRUSTED_PROXY=false
+
+
 https://www.healthuniverse.hshub.net-/**
  * fraud-protect-app.js
  * Minimal layered fraud protection example (Express)
