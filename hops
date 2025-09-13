@@ -81,6 +81,89 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log("Hoplink protector running on " + port));
 
 
+// hoplink-proxy.js
+require('dotenv').config();
+const express = require('express');
+const fetch = require('node-fetch');
+const UAParser = require('ua-parser-js');
+const Redis = require('ioredis');
+
+const app = express();
+const redis = new Redis(process.env.REDIS_URL || "redis://localhost:6379");
+
+// ----- CONFIG -----
+const AFFILIATE_TARGET = "https://examplevendor.com/offer"; // your vendor link
+const MAX_HOPS_PER_MIN = 5;  // normal users won’t click 5+ hoplinks in 60s
+const BLOCK_TTL = 60 * 60 * 24; // 24h
+// ------------------
+
+// helper: blocklist
+async function isBlocked(ip) {
+  return await redis.get(`block:${ip}`) !== null;
+}
+async function block(ip, reason) {
+  await redis.set(`block:${ip}`, reason, 'EX', BLOCK_TTL);
+  console.log(`Blocked ${ip} for: ${reason}`);
+}
+
+// bot check
+function looksLikeBot(req) {
+  const ua = req.get("user-agent") || "";
+  if (!ua || ua.length < 10) return "empty or short UA";
+  if (/Headless|PhantomJS|curl|wget|python|bot/i.test(ua)) return "bot UA";
+  return null;
+}
+
+// hop counter
+async function incrHop(ip) {
+  const key = `hops:${ip}`;
+  const n = await redis.incr(key);
+  if (n === 1) await redis.expire(key, 60); // expire in 60s
+  return n;
+}
+
+// ----- main hoplink route -----
+app.get("/hop/:id", async (req, res) => {
+  const ip = req.ip;
+
+  // blocklist
+  if (await isBlocked(ip)) return res.status(403).send("Access denied");
+
+  // bot UA check
+  const reason = looksLikeBot(req);
+  if (reason) {
+    await block(ip, reason);
+    return res.status(403).send("Blocked bot");
+  }
+
+  // rate limit
+  const hops = await incrHop(ip);
+  if (hops > MAX_HOPS_PER_MIN) {
+    await block(ip, "too many hops");
+    return res.status(429).send("Too many requests");
+  }
+
+  // optional honeypot trap
+  if (req.params.id === "fake") {
+    await block(ip, "honeypot link");
+    return res.status(403).send("Bot trap triggered");
+  }
+
+  // legit click → redirect to vendor with affiliate tracking
+  const targetUrl = `${AFFILIATE_TARGET}?affid=${req.params.id}`;
+  return res.redirect(targetUrl);
+});
+
+// ----- admin check -----
+app.get("/admin/check/:ip", async (req, res) => {
+  const data = await redis.get(`block:${req.params.ip}`);
+  res.json({ ip: req.params.ip, blocked: !!data, reason: data });
+});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log("Hoplink protector running on " + port));
+
+
 PORT=3000
 REDIS_URL=redis://localhost:6379
 RECAPTCHA_SECRET=your-google-recaptcha-secret
