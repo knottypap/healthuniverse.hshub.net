@@ -2,3 +2,8 @@ https://replit.com/@4y6ttr7xpb/
 ForexSignalVue?
 mobileWebview=1&forceTheme=replitDark&vBonsai=2.152.13&errorTrace=0ge7cc80-191a-41fa-ad4a-4731b4d9ae34&mobileBridge=1&hideBottomBar=1&supportsUpsellBridge=1&permissionRequest=1&speechRecogntion=1&workspace2=1&webviewBridge=1&storeReviewPrompt=1&initialPaneType=deployments#app.py=rPMfaE5FD3WRiq42kV5yZNAQoro97FHN
 mobileWebview=1&forceTheme=replitDark&vBonsai=2.152.13&errorTrace=0ge7cc80-191a-41fa-ad4a-4731b4d9ae34&mobileBridge=1&hideBottomBar=1&supportsUpsellBridge=1&permissionRequest=1&speechRecogntion=1&workspace2=1&webviewBridge=1&storeReviewPrompt=1&initialPaneType=deployments#app.py=https://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S
+API-C3507S0RHQ7U6R3Y8D4N9YAI06BXZZI4IBCC
+API-VJWHSSTXQZPD448WQ62ELX899CUOY1JSSLVI
+API-WR665NV0ONWB5M0RWWJEZ3AU132PQAX76DVK
+API-0EQ4M2KKX88A8WNF2LH927HG6SVIWRHEHB1D
+API-T0VM9DBVTDV96T305BEMF32XCJ7O0CYGYG2U
