@@ -20,3 +20,5 @@ $url = "https://$vendor.$affiliate_id.hop.clickbank.net/";
 header("Location: $url");
 exit();
 ?>
+git config --global user.signingkey <GPG_KEY_ID>
+git commit -S -m "Signed commit"
