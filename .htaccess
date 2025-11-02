@@ -100,7 +100,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhuiuulh9omnj;uklklk[' kjljio  jiuhi ygjllyl?>ssdddkljlkjg7rtrrjhui£"390ikjo90i[oiojhljklu8QET
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhuiuukl;kji;olh9omnj;uklklk[' kjljio  jiuhi ygjllyl?>ssdddkljlkjg7rtrrjhui£"390ikjo90i[oiojhljklu8QET
 
 server {
     listen 443 ssl;
