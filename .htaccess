@@ -148,6 +148,24 @@ server {
     Deny from env=BlockCountry
 </IfModule>
 
+# Block suspicious UAs
+SetEnvIfNoCase User-Agent "sqlmap" bad_bot
+SetEnvIfNoCase User-Agent "nikto" bad_bot
+SetEnvIfNoCase User-Agent "curl" bad_bot
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+
+# Basic limit (mod_ratelimit - Apache 2.4)
+<IfModule mod_ratelimit.c>
+    SetOutputFilter RATE_LIMIT
+    SetEnv rate-limit 400
+</IfModule>
+
+# Strong recommendation: enable ModSecurity with OWASP CRS and tune rules
+# ModSecurity blocks many automated attacks (SQLi, XSS, scanners).
+
+
     </Project>
 
 
