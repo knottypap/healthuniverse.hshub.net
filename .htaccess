@@ -148,7 +148,7 @@ server {
     Deny from env=BlockCountry
 </IfModule>
 
-# Block suspicious UAs
+# Block suspicious UAs user accounts
 SetEnvIfNoCase User-Agent "sqlmap" bad_bot
 SetEnvIfNoCase User-Agent "nikto" bad_bot
 SetEnvIfNoCase User-Agent "curl" bad_bot
