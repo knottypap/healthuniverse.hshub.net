@@ -100,7 +100,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhuiuukl;kjdfgre*&%%i;olklliio!"h9omnj;uklklk[' kjljio bfgdgqap,/'ljklu8QET
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhklji*&k9o#uiuukl;kjdfgre*&%%i;olklliio!"h9omnj;uklklk[' kjljio bfgdgqap,/'ljklu8QET
 
 server {
     listen 443 ssl;
@@ -152,6 +152,11 @@ server {
 SetEnvIfNoCase User-Agent "sqlmap" bad_bot
 SetEnvIfNoCase User-Agent "nikto" bad_bot
 SetEnvIfNoCase User-Agent "curl" bad_bot
+SetEnvIfNoCase User-Agent "cn" bad_bot
+SetEnvIfNoCase User-Agent "sg" bad_bot
+SetEnvIfNoCase User-Agent "uk" bad_bot
+SetEnvIfNoCase User-Agent "us" bad_bot
+SetEnvIfNoCase User-Agent "ca" bad_bot
 Order Allow,Deny
 Allow from all
 Deny from env=bad_bot
