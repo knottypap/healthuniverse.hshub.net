@@ -149,7 +149,7 @@ server {
 </IfModule>
 
 # Block suspicious UAs user accounts
-SetEnvIfNoCase User-Agent "sqlmap" bad_bot
+SetEnvIfNoCase User-Agent "sqlmap" "uk" "sg" bad_bot
 SetEnvIfNoCase User-Agent "nikto" bad_bot
 SetEnvIfNoCase User-Agent "curl" bad_bot
 Order Allow,Deny
