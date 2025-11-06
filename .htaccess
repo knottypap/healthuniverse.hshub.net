@@ -170,6 +170,31 @@ Deny from env=bad_bot
 # Strong recommendation: enable ModSecurity with OWASP CRS and tune rules
 # ModSecurity blocks many automated attacks (SQLi, XSS, scanners).
 
+import time
+import random
+import requests
+
+# Example: Safe, randomized post scheduler
+def post_content(api_url, post_data, auth_token):
+    headers = {"Authorization": f"Bearer {auth_token}"}
+    # Random delay to mimic human behavior
+    delay = random.randint(45, 300)
+    print(f"Waiting {delay} seconds before posting...")
+    time.sleep(delay)
+    response = requests.post(api_url, headers=headers, json=post_data)
+    if response.status_code == 200:
+        print("Post successful and safely timed.")
+    else:
+        print(f"Post failed: {response.text}")
+
+# Example usage
+post_data = {
+    "title": "Honey has natural healing power 🍯",
+    "content": "Discover the immune-boosting benefits at https://buzz.hshub.net"
+}
+post_content("https://api.pinterest.com/v1/pins/", post_data, "your_api_key")
+
+
 
     </Project>
 
