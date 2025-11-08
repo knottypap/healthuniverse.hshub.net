@@ -100,7 +100,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhklji*&k9o#uiuukl;kjdfgrkl;jio-8e*&%%i;olklliio!"h9omnj;uklklk[' kjljio bfgdgqap,/'ljklu8QET
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhklji*&k9o#uiuukl;kjdfgrkl;jio-8e*&%%i;olklliio!kjio"h9omnj;uklklk[' kjljio bfgdgqap,/'ljklu8QET
 
 server {
     listen 443 ssl;
@@ -194,7 +194,20 @@ post_data = {
 }
 post_content("https://api.pinterest.com/v1/pins/", post_data, "your_api_key")
 
-
+[{
+    "crawl": {
+        "httpStatusCode": 200,
+        "httpStatusMessage": "OK",
+        "loadedAt": "2024-11-21T14:04:28.090Z"
+    },
+    "metadata": {
+        "url": "https://openai.com/index/introducing-chatgpt-search/",
+        "title": "Introducing ChatGPT search | OpenAI",
+        "description": "Get fast, timely answers with links to relevant web sources",
+        "languageCode": "en-US"
+    },
+    "markdown": "# Introducing ChatGPT search | OpenAI\n\nGet fast, timely answers with links to relevant web sources.\n\nChatGPT can now search the web in a much better way than before. ..."
+}]
 
     </Project>
 
