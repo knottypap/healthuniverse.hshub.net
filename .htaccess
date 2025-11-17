@@ -100,8 +100,7 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthType Strict
 AuthName "Restricted Area"
-AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhkljuiuy87i*&k9o#uiuukl;kjdfgrkl;jio-8e*&%%i;olklliio!kjio"h9omnj;dssfdfuklklk[' kjljio bfgdgqap,/'ljklu8QET
-
+AuthUserFile /home//devoraelsltd1/htpassdevoraelsltd/pwd=eljnbj;jk.m.jkhkljuiuy87i*&kadfgrea£"332#
 server {
     listen 443 ssl;
     server_name healthuniverse.hshub.net
