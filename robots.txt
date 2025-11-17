@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
 Sitemap: https://healthuniverse.hshub.net/sitemap.xml
+
+
+(http.host eq "buzz.hshub.net" and cf.client.bot)
+(http.user_agent contains "bot")
