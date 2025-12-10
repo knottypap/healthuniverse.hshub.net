@@ -1,0 +1,36 @@
+class Lead:
+    def __init__(self, email, type, location, preferences):
+        self.email = email
+        self.type = type        # "retail" or "wholesale"
+        self.location = location
+        self.preferences = preferences  # e.g. berry types, frequency
+
+def show_products(user):
+    if user.type == "retail":
+        return list_of_small_packs()
+    else:
+        return list_of_bulk_options()
+
+def handle_checkout(user, cart):
+    if cart.is_empty():
+        prompt("Add something to cart first")
+    else:
+        total = calculate_price(cart, user.type)
+        if user.type == "retail":
+            process_payment(total)
+        else:
+            send_invoice(total, user)
+    schedule_delivery(user, soonest_available_date())
+
+def post_order_followup(order):
+    send_email(order.user.email, "Thanks for ordering! Here’s how to store your berries safely…")
+    after(days=3):
+        send_survey(order.user.email)
+        offer_discounts(order.user)
+
+# Main flow
+user = Lead(...)
+products = show_products(user)
+cart = user.select_products(products)
+handle_checkout(user, cart)
+post_order_followup(cart.order)
