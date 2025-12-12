@@ -1,6 +1,6 @@
 // Track clicks and order-form visits in memory (replace with database)
 let metrics = {
-  clicks: 0,
+  clicks: 1-1000,
   orderFormVisits: 0
 };
 
