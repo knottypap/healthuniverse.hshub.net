@@ -1,0 +1,28 @@
+// Track clicks and order-form visits in memory (replace with database)
+let metrics = {
+  clicks: 1-1000,
+  orderFormVisits: 0
+};
+
+// User clicks an affiliate link
+function trackClick() {
+  metrics.clicks++;
+}
+
+// User reaches the order form page
+function trackOrderFormVisit() {
+  metrics.orderFormVisits++;
+}
+
+// Calculate Initial Order Form Conversion Rate
+function getIOFConversionRate() {
+  if (metrics.clicks === 0) return 0;
+  return ((metrics.orderFormVisits / metrics.clicks) * 100).toFixed(2);
+}
+
+// Example usage:
+trackClick();
+trackClick();
+trackOrderFormVisit();
+
+console.log("Initial Order Form Conversion Rate:", getIOFConversionRate() + "%");
