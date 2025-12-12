@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Pakistan IP blocks
+<RequireAll>
+    Require all granted
+
+    <RequireAny>
+        Require not ip 39.32.0.0/11
+        Require not ip 110.36.0.0/14
+        Require not ip 119.152.0.0/13
+        Require not ip 103.255.4.0/22
+    </RequireAny>
+
+    RewriteCond %{QUERY_STRING} (^|&)aff=(bluezy32|rose2white|devoraels7) [NC]
+    Require all denied
+</RequireAll>
