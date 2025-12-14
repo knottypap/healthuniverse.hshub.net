@@ -22,3 +22,105 @@ function generateSignedLink(userId) {
   return `https://buzz.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
 }
 
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://apple.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://apple2.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://aton.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://berries.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://berry.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://bnew.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://ceeze.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://bpmir.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://eyefloaters.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+
+
