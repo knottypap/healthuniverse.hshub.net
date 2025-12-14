@@ -299,4 +299,157 @@ function generateSignedLink(userId) {
   return `https://fatcells.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
 }
 
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
 
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://grid.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://gut.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://healme.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://healthuniverse.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://honeybuzz.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://ikj.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://ikari.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://musclbal.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://nagano.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://musuga.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://lotto77.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://loopholetrading.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://liv25.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://liv.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
