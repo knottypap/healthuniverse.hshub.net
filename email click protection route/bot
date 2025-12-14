@@ -28,3 +28,29 @@ function validateEmailLink(req, res, next) {
 
   next();
 }
+
+#block email bots
+
+function blockEmailBots(req, res, next) {
+  const ua = (req.headers["user-agent"] || "").toLowerCase();
+
+  const emailBots = [
+    "proofpoint",
+    "mimecast",
+    "barracuda",
+    "spamassassin",
+    "trendmicro",
+    "sophos",
+    "mail",
+    "scanner",
+    "crawler",
+    "bot"
+  ];
+
+  if (emailBots.some(b => ua.includes(b))) {
+    return res.status(204).end(); // silently ignore
+  }
+
+  next();
+}
+
