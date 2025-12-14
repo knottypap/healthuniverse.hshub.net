@@ -402,4 +402,22 @@ Disclaimer:  The content on our site is for informational and eductational purpo
 </script>
 
 
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll("a[data-protected]");
+
+  links.forEach(link => {
+    const original = link.href;
+
+    setInterval(() => {
+      if (link.href !== original) {
+        console.warn("Link swap detected");
+        link.href = original;
+      }
+    }, 1000);
+  });
+});
+</script>
+
+
   
