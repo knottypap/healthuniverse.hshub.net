@@ -54,3 +54,17 @@ function blockEmailBots(req, res, next) {
   next();
 }
 
+
+#onetimeuse in links
+
+const usedLinks = new Set();
+
+function oneTimeUse(req, res, next) {
+  const key = `${req.query.id}:${req.query.ts}`;
+  if (usedLinks.has(key)) {
+    return res.status(403).send("Link already used");
+  }
+  usedLinks.add(key);
+  setTimeout(() => usedLinks.delete(key), 20 * 60 * 1000);
+  next();
+}
