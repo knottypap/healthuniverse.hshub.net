@@ -1,0 +1,9 @@
+location /checkout {
+  limit_req zone=checkout burst=5 nodelay;
+}
+
+location /api/ {
+  if ($http_user_agent ~* (bot|crawler|spider|python|curl)) {
+    return 403;
+  }
+}
