@@ -1,0 +1,7 @@
+function logPhishing(req) {
+  console.warn("PHISHING BLOCKED", {
+    ip: req.ip,
+    ua: req.headers["user-agent"],
+    time: new Date().toISOString()
+  });
+}
