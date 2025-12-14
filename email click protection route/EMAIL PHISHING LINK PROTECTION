@@ -1,0 +1,12 @@
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://healthuniverse.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+
