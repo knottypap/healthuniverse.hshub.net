@@ -122,5 +122,181 @@ function generateSignedLink(userId) {
 
   return `https://eyefloaters.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
 }
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://exfactorprod.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://exfact.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://ene.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://entrepreneurship.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://dbdetox.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://doron.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://coolce.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://coomb.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://gluc.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://golf.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://glico.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://genius.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://genw.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://fdconv.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://fitlean.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
+function generateSignedLink(userId) {
+  const ts = Date.now();
+  const data = `${userId}:${ts}`;
+
+  const sig = crypto
+    .createHmac("sha256", process.env.PHISH_SECRET)
+    .update(data)
+    .digest("hex");
+
+  return `https://fatcells.hshub.net/login?id=${userId}&ts=${ts}&sig=${sig}`;
+}
 
 
