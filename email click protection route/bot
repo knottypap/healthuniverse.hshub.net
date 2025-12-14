@@ -1,0 +1,30 @@
+const crypto = require("crypto");
+const express = require("express");
+const app = express();
+
+const SECRET = process.env.EMAIL_HMAC_SECRET;
+
+// 🔐 Validate email link
+function validateEmailLink(req, res, next) {
+  const { id, ts, sig } = req.query;
+  if (!id || !ts || !sig) {
+    return res.status(403).send("Invalid link");
+  }
+
+  // Expire links after 15 minutes
+  if (Date.now() - Number(ts) > 15 * 60 * 1000) {
+    return res.status(403).send("Link expired");
+  }
+
+  const data = `${id}:${ts}`;
+  const expected = crypto
+    .createHmac("sha256", SECRET)
+    .update(data)
+    .digest("hex");
+
+  if (expected !== sig) {
+    return res.status(403).send("Link modified");
+  }
+
+  next();
+}
