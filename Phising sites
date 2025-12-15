@@ -1,0 +1,9 @@
+location ~* \.(jpg|jpeg|png|gif|webp|svg)$ {
+  valid_referers none blocked
+    yourdomain.com
+    www.yourdomain.com;
+
+  if ($invalid_referer) {
+    return 403;
+  }
+}
