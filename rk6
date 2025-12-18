@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -e
+
+ROTATE_DIR="/etc/key-rotation"
+SSH_DIR="$ROTATE_DIR/ssh"
+SSL_DIR="$ROTATE_DIR/ssl"
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+
+mkdir -p "$SSH_DIR" "$SSL_DIR"
+
+#############################################
+# Rotate SSH Key
+#############################################
+echo "🔑 Rotating SSH key..."
+
+ssh-keygen -t ed25519 -f "$SSH_DIR/id_ed25519_$TIMESTAMP" -N "" -C "auto-rotated-$TIMESTAMP" >/dev/null
+
+ln -sf "$SSH_DIR/id_ed25519_$TIMESTAMP"     "$SSH_DIR/current_id_ed25519"
+ln -sf "$SSH_DIR/id_ed25519_$TIMESTAMP.pub" "$SSH_DIR/current_id_ed25519.pub"
+
+echo "SSH key rotated."
+
+#############################################
+# Rotate SSL Certificate (Self-Signed Example)
+#############################################
+echo "🔐 Rotating SSL certificate..."
+
+openssl req -x509 -nodes -newkey rsa:2048 \
+  -keyout "$SSL_DIR/key_$TIMESTAMP.pem" \
+  -out "$SSL_DIR/cert_$TIMESTAMP.pem" \
+  -subj "/CN=yourdomain.com" \
+  -days 1 2>/dev/null
+
+ln -sf "$SSL_DIR/key_$TIMESTAMP.pem"  "$SSL_DIR/current.key"
+ln -sf "$SSL_DIR/cert_$TIMESTAMP.pem" "$SSL_DIR/current.crt"
+
+echo "SSL cert rotated."
+
+echo "Rotation complete: $TIMESTAMP"
+
+sudo chmod +x /usr/local/bin/rotate_keys.sh
+
+
+
+0 */6 * * * /usr/local/bin/rotate_keys.sh >> /var/log/key_rotation.log 2>&1

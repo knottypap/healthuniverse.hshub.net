@@ -1,0 +1,54 @@
+START
+
+1. Environment Check
+   - Ensure all traffic originates from approved domains
+   - Force HTTPS on landing pages + hop links
+   - If referer NOT equal to your domain → reject & log
+
+2. Link Integrity Enforcement
+   On page load:
+       Extract affiliate hop link parameters
+       Compare against stored, verified affiliate ID
+       IF hoplink.id != ExpectedID
+           Alert admin + rewrite to original ID
+
+3. Session-Level Validation
+   For each visitor:
+       Generate hash token for tracking
+       Bind token to:
+          - browser fingerprint
+          - IP block
+          - ClickBank affiliate ID
+       IF token integrity fails at checkout
+          Flag as data-hijack attempt
+
+4. Server-Side Reporting Mirror
+   - Create internal sales ledger copy
+   - Sync inbound clicks, order form impressions, rebills
+   - Compare with ClickBank dashboard records
+
+   IF variance > threshold
+      Trigger FRAUD / DIVERSION ALERT
+      Log timestamp, IP, funnel step
+
+5. Admin Login Security
+   - Enable 2FA on ClickBank login
+   - Rotate passwords every 30–60 days
+   - Detect unusual login locations
+
+   IF login originates outside trusted region
+       Auto-lock dashboard + notify owner
+
+6. Outbound Data Protection
+   - Block unknown scripts from modifying hop links
+   - Disallow external JS injection
+   - Audit site weekly for iframe or cloaked redirects
+
+7. Escalation Procedure
+   IF repeat diversion attempts detected
+       A) Lock affected hoplinks
+       B) Regenerate encrypted links
+       C) Report to ClickBank support security team
+       D) Start forensic log trace
+
+END
