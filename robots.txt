@@ -5,3 +5,13 @@ Sitemap: https://healthuniverse.hshub.net/sitemap.xml
 
 (http.host eq "buzz.hshub.net" and cf.client.bot)
 (http.user_agent contains "bot")
+
+User-agent: *
+Disallow: /api/
+Disallow: /private/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
