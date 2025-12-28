@@ -422,4 +422,19 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>email click protection route/bot</script>
 
   
+<script>
+async function generateHumanToken() {
+  const data = navigator.userAgent + screen.width + screen.height;
+  const hash = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(data)
+  );
+  const token = btoa(
+    String.fromCharCode(...new Uint8Array(hash))
+  );
+  localStorage.setItem("human_token", token);
+}
+
+generateHumanToken();
+</script>
 
