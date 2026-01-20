@@ -211,6 +211,17 @@ post_content("https://api.pinterest.com/v1/pins/", post_data, "your_api_key")
 
     </Project>
 
+setcookie(
+  'aff_session',
+  bin2hex(random_bytes(16)),
+  [
+    'expires'  => time() + 900, // 15 minutes
+    'path'     => '/',
+    'secure'   => true,
+    'httponly' => true,
+    'samesite' => 'Strict'
+  ]
+);
 
 
 
