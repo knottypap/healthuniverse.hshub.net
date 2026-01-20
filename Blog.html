@@ -152,3 +152,15 @@
  "image": ["https://healthuniverse.hshub.net/img/tonic.webp"]
 }
 </script>
+
+setcookie(
+  'aff_session',
+  bin2hex(random_bytes(16)),
+  [
+    'expires'  => time() + 900, // 15 minutes
+    'path'     => '/',
+    'secure'   => true,
+    'httponly' => true,
+    'samesite' => 'Strict'
+  ]
+);
