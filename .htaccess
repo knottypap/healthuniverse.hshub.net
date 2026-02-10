@@ -248,5 +248,29 @@ setcookie(
 })();
 </script>
 
+<?php
+$allowed_domains = [
+    'hshub.net',
+    'www.hshub.net''
+];
+
+$referer = $_SERVER['HTTP_REFERER'] ?? '';
+$host = parse_url($referer, PHP_URL_HOST);
+
+if (!$host || !in_array($host, $allowed_domains)) {
+    http_response_code(403);
+    exit('Unauthorized');
+}
+
+// Optional: log IP + time
+file_put_contents(
+    'clicklog.txt',
+    date('c') . ' | ' . $_SERVER['REMOTE_ADDR'] . PHP_EOL,
+    FILE_APPEND
+);
+
+// Redirect to ClickBank hoplink
+header("Location: https://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2Ghttps://affiliate.vendor.hop.clickbank.net");
+exit;
 
 
