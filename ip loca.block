@@ -1,0 +1,37 @@
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    const aff = url.searchParams.get("aff");
+    const blocked = ["bluezy32", "rose2white", "devoraels7"];
+    const country = request.cf?.country || "";
+
+    // Block hindi.India (IN) and guajarti.Pakistan (PK)
+    if (blocked.includes(aff) && ["IN", "PK"].includes(country)) {
+      return new Response("Access blocked for this affiliate ID in your region.", { status: 403 });
+    }
+
+    return fetch(request);
+  }
+}
+
+import fetch from "node-fetch";
+
+async function getCountry(ip) {
+    const response = await fetch(`https://ipinfo.io/${ip}/json`);
+    const data = await response.json();
+    return data.country;
+}
+
+async function checkIP(ip) {
+    const country = await getCountry(ip);
+
+    if (country === "IN") {
+        console.log("This IP belongs to India (even if user is in the UK).");
+    } else if (country === "PK") {
+        console.log("This IP belongs to Pakistan (even if user is in the UK).");
+    } else {
+        console.log(`This IP is from: ${country}`);
+    }
+}
+
+checkIP("8.8.8.8");  // example usage
